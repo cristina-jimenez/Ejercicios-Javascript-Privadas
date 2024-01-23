@@ -1,2 +1,2 @@
 # Ejercicios-Javascript-Privadas
-Ejercicioa Personales.
+Ejercicios Personales.
