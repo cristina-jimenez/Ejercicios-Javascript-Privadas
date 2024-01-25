@@ -34,3 +34,19 @@ const CalculoCuadrado = (lado) => {
 };
 
 CalculoCuadrado(4);
+
+
+
+/* Un poco de interactividad. En este ejercicio debes escribir un programa que lea el nombre del usuario y salude con un "Hola" 
+seguido del nombre del usuario.
+Para leer el nombre usa un prompt con un texto indicativo como "Escribe tu nombre" 
+
+Aparecerá el prompt y el usuario escribirá su nombre:   (El prompt es funcion del navegador)
+Usuario escribe juan
+Hola Juan  */
+
+
+const Name = prompt("Mucho gustos, Por favor escribe tu precioso nombre: ");
+console.log("Hola " + Name);
+// Hola Cristina
+
