@@ -50,3 +50,23 @@ const Name = prompt("Mucho gustos, Por favor escribe tu precioso nombre: ");
 console.log("Hola " + Name);
 // Hola Cristina
 
+
+//*Agregar productor al carrito de compras, usando prompt, es decir preguntandole al usuario
+const productos = [];
+let respuesta = confirm(
+  "Buenos días, ¿Desea agregar algún producto para comprar?"
+);
+if (respuesta == true) {
+  while (respuesta == true) {
+    producto = prompt("¿Qué producto desea agregar?");
+    productos.push(producto);
+    respuesta = confirm("¿Desea agregar otro producto para comprar?");
+  }
+  //console.log(`Sus compras son las siguientes: ${productos}. Gracias Por su Compra`);
+  console.log("Usted compró: ");
+  for (let producto of productos) {
+    console.log(producto);
+  };
+} else {
+  console.log("Usted no ha comprado nada");
+};
